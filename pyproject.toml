@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "mistral"
+version = "0.1.0"
+description = ""
+authors = ["Zohaib Tariq <se.zohaib@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+torch = "^2.2.1"
+torchvision = "^0.17.1"
+huggingface-hub = "^0.22.0"
+llama-cpp-python = {extras = ["server"], version = "^0.2.57"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
