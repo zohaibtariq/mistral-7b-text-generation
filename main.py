@@ -7,7 +7,7 @@ llm = Llama(
     # n_ctx=2048, # Uncomment to increase the context window
 )
 output = llm(
-    "Q: List qualities of best friends ? A: ",  # Prompt
+    "Q: List qualities of best friend ? A: ",  # Prompt
     max_tokens=4096,  # Generate up to 32 tokens, set to None to generate up to the end of the context window
     stop=["Q:", "\n"],  # Stop generating just before the model would generate a new question
     echo=True  # Echo the prompt back in the output
